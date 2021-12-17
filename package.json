@@ -1,0 +1,10 @@
+{
+  "name": "twilio_golang_web_app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "wakusei-meron- <b0941015+gihub@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@twilio/voice-sdk": "^2.0.1"
+  }
+}

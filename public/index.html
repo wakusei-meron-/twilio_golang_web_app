@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>TwilioとGolangで理解してサクッと作る発着信WEBアプリ</title>
+</head>
+<body>
+  <h2>初期化</h2>
+  <button
+      id="js-setup-button"
+      type="button"
+  >セットアップ</button>
+  <p>ログイン名: <span id="js-username">未ログイン</span></p>
+
+  <h2>発信</h2>
+  <input
+    id="js-phone-number-input"
+    type="tel"
+    placeholder="電話番号(ex. +81 90 0000 0000)"
+    size="30"
+  />
+  <button
+    id="js-outgoing-button"
+    type="button"
+    disabled
+  >発信</button>
+
+  <h2>着信</h2>
+  <button
+    id="js-incoming-button"
+    type="button"
+    disabled
+  >電話に出る</button>
+
+  <script type="text/javascript" src="twilio.min.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
